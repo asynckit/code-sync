@@ -1,3 +1,4 @@
+
 .homePageWrapper{
   display:flex;
   align-items: center;
@@ -91,4 +92,51 @@ footer a:hover {
 footer h4{
   display:flex;
   justify-content: center;
+}
+
+
+.mainWrap{
+  display:Grid;
+  grid-template-columns: 230px 1fr;
+  height:100vh;
+
+}
+
+.aside{
+  background: #1c1e29;
+  padding:16px;
+  color:white;
+  display:flex;
+  flex-direction:column;
+}
+.asideInner{
+  flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.client{
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  font-weight: bold;
+}
+.userName{
+  margin-top: 10px;
+}
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+.logoImage{
+  height:60px;
+}
+.leaveBtn{
+  margin-top: 20px;
+  width: 100%;
 }
