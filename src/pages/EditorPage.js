@@ -4,9 +4,9 @@ import Editor from "../components/Editor";
 
 const EditorPage = () => {
     const [clients, setClients] = useState([
-        { socketId: 1, username: "Ankit k" },
+        { socketId: 1, username: "Aghastya k" },
         { socketId: 2, username: "Capt. jack" },
-        { socketId: 3, username: "Capt. jack" },
+        { socketId: 3, username: "John Wick 😎" },
     ]);
     return (
         <div className="mainWrap">
