@@ -7,6 +7,7 @@ import 'codemirror/addon/edit/closetag';
 import 'codemirror/addon/edit/closebrackets';
 
 const Editor = () => {
+    // Did Editor setup here{Theme had the problem @codemirror5.0}
     useEffect(() => {
         async function init() {
             Codemirror.fromTextArea(document.getElementById("realtimeEditor"), {
